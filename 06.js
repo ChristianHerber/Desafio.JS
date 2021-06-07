@@ -4,8 +4,8 @@
  * Atribua esta operação à variável PROD,
  * mostrando esta de acordo com a mensagem de saída esperada.   
  */
-let valor1 = parseInt(gets())
-let valor2 = parseInt(gets())
+let valor1 = prompt("Valor 01")
+let valor2 = prompt("Valor 02")
 
 let total = valor1 * valor2
 
