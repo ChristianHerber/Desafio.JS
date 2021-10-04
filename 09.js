@@ -6,7 +6,7 @@
 - Retorne uma string dizendo "Os números num1 e num 2 não/são iguais. Sua soma é soma, que é maior/menor que 10 ee maior/menor que 20"
 */
 
-function myNumbers(num1, num2){
+myNumbers = (num1, num2) => {
 
     if(!num1 || !num2) return 'Informe os dois números'
     
@@ -24,4 +24,4 @@ function myNumbers(num1, num2){
     return myOutputString
 }
 
-console.log(myNumbers())
+console.log(myNumbers(5,85))
