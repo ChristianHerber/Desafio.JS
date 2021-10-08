@@ -1,15 +1,16 @@
-const myArray = [1,2,3,4,5,6,7,8,9]
-const frutas = ['Banana', 'Maçã', 'Abacaxi', 'Laranja']
-
+const myArray = [10,25]
 function somaItem(){
-    return myArray.reduce( (anterior, proximo) => anterior + proximo, 0 )
+    return myArray.reduce( (valorAcumulado, valorAtual) => valorAcumulado + valorAtual, 0 )
 }
+console.log(`Soma dos itens do array: ${somaItem()}`)
 
-function procuraFruta(fruta){
-    return frutas.filter( (ft) => ft.includes(fruta))
+
+
+const precos = [10,30]
+const saldo = 100
+function calculaSaldo(saldo, precos){
+    return precos.reduce( function(prev, curr){
+        return prev - curr
+    }, saldo)
 }
-
-console.log(`
-    Soma dos itens do array: ${somaItem()}
-    A fruta ${procuraFruta('Laranja')} foi encontrado no array de frutas. 
-`)
+console.log(calculaSaldo(saldo, precos))
