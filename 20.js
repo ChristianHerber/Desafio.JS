@@ -31,4 +31,4 @@ function tratarErro(arr, num){
     }//try - catch
 }//trataErro
 
-console.log(tratarErro(5, 8))
+console.log(tratarErro([1,2,3,4,5,6,7,8], 8))
