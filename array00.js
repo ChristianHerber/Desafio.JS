@@ -11,7 +11,7 @@ console.log(person)
 person.unshift("Paul") //add item no início do array
 console.log(person)
 
-person.shift() //remove o item do ibnício do arrya
+person.shift() //remove o item do início do arrya
 console.log(person)
 
 const personFruits = person.concat(fruits) //unindo 2 arrays
